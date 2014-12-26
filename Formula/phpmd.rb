@@ -4,9 +4,9 @@ require File.expand_path("../../Requirements/phar-requirement", Pathname.new(__F
 
 class Phpmd < Formula
   homepage 'http://phpmd.org'
-  url 'http://static.phpmd.org/php/1.5.0/phpmd.phar'
-  sha1 '4e64bd506afad7e9aa1b0c1f4216660395e347ac'
-  version '1.5.0'
+  url 'http://static.phpmd.org/php/2.1.3/phpmd.phar'
+  sha1 'a390c80f8108a07fb2d2bb91dfc175fa3a44371c'
+  version '2.1.3'
 
   depends_on PhpMetaRequirement
   depends_on PharRequirement
